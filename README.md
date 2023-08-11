@@ -16,7 +16,7 @@ This application allows students to schedule reviews with available mentors. Men
 - Docker
 
 ## Application Structure
-
+RevuTrack uses Domain Driven Design and is based on the Clean architecture principle. The following directories are standard of the idea:
 - `src/domain`: This directory contains the entities, interfaces, services, and repositories related to the domain logic.
 - `src/application`: This directory contains the controllers which handle HTTP requests and responses.
 - `src/infrastructure`: This directory contains code for external concerns like database and authentication.
